@@ -20,7 +20,7 @@ function makeBox() {
 }
 
 function toggleYellowBox() {
-  $(this).parent().toggleClass('yellowBox');
+  $(this).parent().addClass('yellowBox');
 }
 
 function deleteBox() {
