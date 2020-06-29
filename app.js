@@ -5,5 +5,9 @@ function onReady() {
 }
 
 function makeBox() {
-  console.log('click');
+  $('.js-container').append(`
+    <div class="box">
+      <button class="js-btn-yellow">Yellow</button>
+    </div>
+  `);
 }
