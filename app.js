@@ -5,6 +5,7 @@ let clickCount = 0;
 function onReady() {
   $('.js-btn-generate').on('click', makeBox);
   $('.js-container').on('click', '.js-btn-yellow', toggleYellowBox);
+  $('.js-container').on('click', '.js-btn-delete', deleteBox);
 }
 
 function makeBox() {
@@ -20,4 +21,8 @@ function makeBox() {
 
 function toggleYellowBox() {
   $(this).parent().toggleClass('yellowBox');
+}
+
+function deleteBox() {
+  $(this).parent().remove();
 }
