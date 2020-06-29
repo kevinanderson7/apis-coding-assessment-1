@@ -12,6 +12,7 @@ function makeBox() {
     <div class="box">
         <p>${clickCount}</p>
         <button class="js-btn-yellow">Yellow</button>
+        <button class="js-btn-delete">Delete</button>
     </div>
   `);
 }
