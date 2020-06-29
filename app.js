@@ -1,6 +1,9 @@
 $(document).ready(onReady);
-console.log('js');
 
 function onReady() {
-  console.log('jquery');
+  $('.js-btn-generate').on('click', makeBox);
+}
+
+function makeBox() {
+  console.log('click');
 }
